@@ -30,9 +30,9 @@ const App = () => {
     <Routes>
       <Route path='/crwn-clothing/' element={<Navigation />}>
         <Route index element={<Home />} />
-        <Route path='/crwn-clothingshop/*' element={<Shop />} />
-        <Route path='/crwn-clothingauth' element={<Authentication />} />
-        <Route path='/crwn-clothingcheckout' element={<Checkout />} />
+        <Route path='crwn-clothing/shop/*' element={<Shop />} />
+        <Route path='crwn-clothing/auth' element={<Authentication />} />
+        <Route path='crwn-clothing/checkout' element={<Checkout />} />
       </Route>
     </Routes>
   );
