@@ -25,11 +25,11 @@ const Navigation = () => {
   return(
     <Fragment>
       <NaviagtionContainer>
-      <LogoContainer to='/'>
+      <LogoContainer to='/crwn-clothing/'>
         <CrwnLogo className="logo" />
       </LogoContainer>
         <NavLinks>
-          <NavLink to='./shop'>
+          <NavLink to='./crwn-clothing/shop'>
               SHOP
           </NavLink>
           {
@@ -38,7 +38,7 @@ const Navigation = () => {
               )
               : 
               (
-                <NavLink to='./auth'>
+                <NavLink to='./crwn-clothing/auth'>
                   SIGN IN
                 </NavLink>
               ) 
