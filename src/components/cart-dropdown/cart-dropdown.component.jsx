@@ -13,7 +13,7 @@ const CartDropdown = () => {
     const navigate = useNavigate();
 
     const goToCheckoutHandler = () => {
-        navigate('./crwn-clothing/checkout')
+        navigate('./checkout')
     }
 
     return (
